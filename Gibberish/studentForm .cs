@@ -10,6 +10,13 @@ namespace Gibberish
             InitializeComponent();
         }
 
+        private void btnStudent_Click(object sender, EventArgs e)
+        {
+            StudentLog studentLog = new StudentLog();
+            studentLog.Show();
+          
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 

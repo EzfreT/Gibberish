@@ -38,7 +38,7 @@
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
-            button1 = new Button();
+            btnStudent = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
@@ -49,7 +49,7 @@
             pictureBox1.BackgroundImage = Properties.Resources.download__8_;
             pictureBox1.Location = new Point(-20, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(808, 449);
+            pictureBox1.Size = new Size(823, 449);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -89,7 +89,7 @@
             panel3.Controls.Add(button4);
             panel3.Controls.Add(button3);
             panel3.Controls.Add(button2);
-            panel3.Controls.Add(button1);
+            panel3.Controls.Add(btnStudent);
             panel3.Location = new Point(1, 87);
             panel3.Name = "panel3";
             panel3.Size = new Size(200, 365);
@@ -145,15 +145,16 @@
             button2.Text = "Subject";
             button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnStudent
             // 
-            button1.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(32, 31);
-            button1.Name = "button1";
-            button1.Size = new Size(130, 27);
-            button1.TabIndex = 9;
-            button1.Text = "Student";
-            button1.UseVisualStyleBackColor = true;
+            btnStudent.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnStudent.Location = new Point(32, 31);
+            btnStudent.Name = "btnStudent";
+            btnStudent.Size = new Size(130, 27);
+            btnStudent.TabIndex = 9;
+            btnStudent.Text = "Student";
+            btnStudent.UseVisualStyleBackColor = true;
+            btnStudent.Click += btnStudent_Click;
             // 
             // Student
             // 
@@ -184,6 +185,6 @@
         private Button button4;
         private Button button3;
         private Button button2;
-        private Button button1;
+        private Button btnStudent;
     }
 }
