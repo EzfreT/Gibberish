@@ -49,6 +49,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(429, 100);
             panel1.TabIndex = 0;
+            
             // 
             // label1
             // 
@@ -123,6 +124,7 @@
             btnLogin.TabIndex = 7;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // Form1
             // 
