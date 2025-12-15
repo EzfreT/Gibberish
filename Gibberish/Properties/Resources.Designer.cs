@@ -73,6 +73,26 @@ namespace Gibberish.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8275ea5e8c59e1f95401a6bd72566d41 {
+            get {
+                object obj = ResourceManager.GetObject("8275ea5e8c59e1f95401a6bd72566d41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap b813bf9f599bb921f2cf2d7513a0c13b {
+            get {
+                object obj = ResourceManager.GetObject("b813bf9f599bb921f2cf2d7513a0c13b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cat {
             get {
                 object obj = ResourceManager.GetObject("cat", resourceCulture);
@@ -96,6 +116,16 @@ namespace Gibberish.Properties {
         internal static System.Drawing.Bitmap download__8_ {
             get {
                 object obj = ResourceManager.GetObject("download (8)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f95bbaa23a6fdf4da97d58b71b5ed4a3 {
+            get {
+                object obj = ResourceManager.GetObject("f95bbaa23a6fdf4da97d58b71b5ed4a3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

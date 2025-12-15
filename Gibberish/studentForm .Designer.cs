@@ -114,6 +114,7 @@
             button5.TabIndex = 13;
             button5.Text = "Enrollment";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -124,6 +125,7 @@
             button4.TabIndex = 12;
             button4.Text = "Section";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -134,6 +136,7 @@
             button3.TabIndex = 11;
             button3.Text = "Teacher";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -144,6 +147,7 @@
             button2.TabIndex = 10;
             button2.Text = "Subject";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // btnStudent
             // 
